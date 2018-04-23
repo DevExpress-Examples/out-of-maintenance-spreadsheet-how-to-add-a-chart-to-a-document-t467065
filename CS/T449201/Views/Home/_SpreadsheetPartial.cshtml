@@ -1,0 +1,22 @@
+@using DevExpress.Web.Office;
+@using T449201;
+
+@Html.DevExpress().Spreadsheet(settings => {
+    settings.Name = "Spreadsheet";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "SpreadsheetPartial" };
+    settings.CustomActionRouteValues = new { Controller = "Home", Action = "SpreadsheetCustomPartial" };
+    settings.Width = 1100;
+    settings.Height = 600;
+    settings.ReadOnly = false;
+    settings.RibbonMode = SpreadsheetRibbonMode.Ribbon;
+
+    settings.PreRender = (s, e) => {
+        MVCxSpreadsheet spreadsheert = (MVCxSpreadsheet)s;
+        spreadsheert.CreateDefaultRibbonTabs(true);
+        spreadsheert.RibbonTabs[0].Visible = false; //Hide the file tab
+        DiagramCreationHelper.CreatePieChart(spreadsheert.Document);
+        
+
+    };
+
+}).Open(Server.MapPath("~/App_Data/WorkDirectory/Document.xlsx")).GetHtml()
