@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/T449201/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/T449201/Controllers/HomeController.vb))
+* [DiagramCreationHelper.cs](./CS/T449201/DiagramCreationHelper.cs) (VB: [DiagramCreationHelper.vb](./VB/T449201/DiagramCreationHelper.vb))
+* [_SpreadsheetPartial.cshtml](./CS/T449201/Views/Home/_SpreadsheetPartial.cshtml)
+* [Index.cshtml](./CS/T449201/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # Spreadsheet - How to add a chart to a document
 
 
