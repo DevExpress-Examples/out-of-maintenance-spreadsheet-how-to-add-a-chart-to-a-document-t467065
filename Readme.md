@@ -8,7 +8,7 @@
 <!-- default file list end -->
 # Spreadsheet - How to add a chart to a document
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t467065)**
+**[[Run Online]](https://codecentral.devexpress.com/t467065/)**
 <!-- run online end -->
 
 
