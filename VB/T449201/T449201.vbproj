@@ -174,14 +174,14 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Shared\DisplayTemplates\Boolean.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Boolean.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\DateTime.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Decimal.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\MultilineText.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\Password.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\String.cshtml" />
-    <Content Include="Views\Shared\EditorTemplates\EmailAddress.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\Boolean.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\Boolean.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\DateTime.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\Decimal.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\MultilineText.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\Password.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\String.vbhtml" />
+    <Content Include="Views\Shared\EditorTemplates\EmailAddress.vbhtml" />
     <None Include="Views\Home\Index.vbhtml" />
     <None Include="Views\Home\_SpreadsheetPartial.vbhtml" />
   </ItemGroup>
